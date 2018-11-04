@@ -1,14 +1,14 @@
 import com.sun.istack.internal.Nullable;
 
 public class Card {
-    int multiID;
-    String name;
-    String type;
-    int cmc;
-    String color;
-    String flavor;
-    int power = 0;
-    int toughness = 0;
+    public final int multiID;
+    public final String name;
+    public final String type;
+    public final int cmc;
+    public final String color;
+    public final String flavor;
+    public final int power;
+    public final int toughness;
 
     public Card(int id, String n, String t, int c, String col, String flav, @Nullable int p, @Nullable int tou)
     {
